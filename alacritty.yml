@@ -3,6 +3,11 @@ font:
     family: Source Code Pro
   size: 9.5
 
+window:
+  padding:
+    x: 3
+    y: 3
+
 colors:
   primary:
     foreground: '#f0f0f0'
@@ -30,3 +35,6 @@ shell:
 key_bindings:
   - { key: Space, mods: Control, chars: "\x00" }
   - { key: Slash, mods: Control, chars: "\x1f" }
+  - { key: Key0, mods: Control, action: ResetFontSize }
+  - { key: E, mods: Control|Alt|Super|Shift, action: IncreaseFontSize }
+  - { key: F, mods: Control|Alt|Super|Shift, action: DecreaseFontSize }
