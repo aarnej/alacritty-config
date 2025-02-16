@@ -1,0 +1,10 @@
+[font]
+normal.family = "Source Code Pro"
+size = 9
+
+[cursor]
+style.blinking = "Always"
+blink_interval = 300
+
+[selection]
+save_to_clipboard = true
